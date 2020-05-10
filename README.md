@@ -36,11 +36,11 @@
       * BankerAlgorithm类 
           * 属性**alocation二维数组**，用于保存每个进程已分配的各种资源的数目。
           * 属性**need二维数组**，用于保存每个进程还需要的各种资源的数目。
-          * 属性**work一维数组**，用于验证是否安全，假设某个进程执行结束，则收回分配的资源输入，类似拓扑结构判断是否死锁。
+          * 属性**work一维数组**，用于验证是否安全，假设某个进程执行结束，则收回分配的资源，类似拓扑结构判断是否死锁。
           * 方法**askForResources(int id, int[] request)**，输入进程数以及请求资源的数目。返回是否请求成功。
-          * 方法**public boolean isSafe()**，用于判断分配资源后是否会出现死锁定。在askForResources(int id, int[] request)中嵌套使用，作为其方法体一部分。
+          * 方法**public boolean isSafe()**，用于判断分配资源后是否会出现死锁。在askForResources(int id, int[] request)中嵌套使用，作为其方法体一部分。
       * Utils类 
-          * 一个静态工具类。主要实现**一维和二维数组的相加相减，数组的格式化输出，从键盘获取输入确定askForResources(int id, int[] request)方法体的参数**
+          * 一个静态工具类。主要实现**一维和二维数组的相加相减，数组的格式化输出，从键盘获取输入确定askForResources(int id, int[] request)的参数**
    * main包 
       * 只有主类和主函数，通过键盘获取**整数输入**，按照示例实现算法演示示例
    * test包 
