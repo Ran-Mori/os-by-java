@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Exp3.dir/main.cpp.o  -o Exp3 

@@ -1,0 +1,3 @@
+/home/gho328u983t9ehfd/Desktop/os/Exp3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gho328u983t9ehfd/Desktop/os/Exp3/cmake-build-debug/CMakeFiles/Exp3.dir
+/home/gho328u983t9ehfd/Desktop/os/Exp3/cmake-build-debug/CMakeFiles/edit_cache.dir
